@@ -32,3 +32,17 @@ External Influences: Christelle
 
 Data & Ethics Considerations:
 Data Source 1: https://creativecommons.org/publicdomain/zero/1.0/
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Status as of 1/9
+
+Group: Found data on Percentage of Popular Vote Received by State 
+Austin: Found data on Maritial Status
+Pascale: Founda data on Race and Ethnicity, Religion and Sex
+Caitlyn: Found data on Age and Education Level
+Christelle: Found data on Occupation and Income & Socioeconomic Status
+
+Next steps:
+
+Each member to clean, and import their data into a Jupyter Notebook or VS Code document. They will convert their data into a dataframe and have ready to begin mapping by next class.
