@@ -46,3 +46,15 @@ Christelle: Found data on Occupation and Income & Socioeconomic Status
 Next steps:
 
 Each member to clean, and import their data into a Jupyter Notebook or VS Code document. They will convert their data into a dataframe and have ready to begin mapping by next class.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Status as of 1/11
+
+Group: Found data on Percentage of Popular Vote Received by State 
+Austin: Found data on Maritial Status, imported and saved as a dataframe
+Pascale: Founda data on Race and Ethnicity, Religion and Sex, imported and saved as a dataframe
+Caitlyn: Found data on Age and Education Level (Out sick)
+Christelle: Found data on Occupation and Income & Socioeconomic Status, imported and saved as a dataframe
+
+Next steps: Christelle to turn the group data (1996-2020 Presidential General Election) into Dataframe & Caitlyn to be caught up by class on 1/16
