@@ -26,6 +26,6 @@ The resources we are referring to are licensed under the Creative Commons Public
 
 Link to the creative: https://creativecommons.org/publicdomain/zero/1.0/
 
-
+Instructions on how to use and interact with the project: Review the databranch to see our coding
 
 
