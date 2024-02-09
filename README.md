@@ -29,13 +29,8 @@ Link to the creative: https://creativecommons.org/publicdomain/zero/1.0/
 Instructions on how to use and interact with the project: 
 
 Main Branch: 
-  - Contains an in-class activity in a text class called, "Algorithm Bias"
   - Contains our slide show presentation ina  file called, "Presentation"
-  - Contains a text file that highlights periodic updates on the product progession called, "Status Report"
   - Contains our Read.me
-
-
-Databranch Branch:
   - Contains a .gitignore file
   - Contains a text file  storing our API Key called "Config.js"
   - Contains our Percent Change in Marriage Rates data set in geojson format in a file called, "MarriagePercentChange.csv"
