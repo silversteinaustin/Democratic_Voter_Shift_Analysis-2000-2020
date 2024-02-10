@@ -8,8 +8,11 @@ The primary objective is to identify if marital status significantly influences 
 
 # Tools and Technologies Used
 Languages: Python (for data analysis and visualization), JavaScript (for interactive web visualizations)
+
 Libraries and Frameworks: GeoPandas (for converting datasets to GeoJSON format), Plotly and Leaflet (for data visualization), Flask (for backend interaction and serving plots)
+
 Data Management: PostgreSQL (database for storing datasets)
+
 Other Tools: Jupyter Notebook (for Python commands and analysis), HTML/CSS (for presentation and styling of web pages)
 
 # Repository Navigation
@@ -28,18 +31,21 @@ Legal and Ethical considerations.docx: Document outlining legal and ethical cons
 
 # Conclusion/Findings
 Marriage and Divorce Trends: Both marriage and divorce rates have shown significant changes since 2000, with a general increase in both metrics.
+
 Voter Registration: A notable shift towards Democratic party affiliation in most states was observed, suggesting a possible correlation with changes in marital status.
+
 Ethical Considerations: Careful evaluation ensured no exclusion or bias in data collection and analysis. Legal and ethical standards were maintained throughout the project.
 
 # Instructions for Interaction
 The project includes various interactive elements to enhance user engagement:
 
 Visualizations: Accessible through the Index.html file, presenting data through interactive maps and charts.
+
 Data Exploration: Users can explore datasets via the Flask backend or directly through JavaScript-powered HTML elements.
+
 Filtering: Options to filter data based on specific criteria, enabling personalized data visualization experiences.
 
 # Data Sources:
-
 Here's how you can update the Data Sources section of your README to accurately reflect the true sources of your data, making it more precise and relevant for readers:
 
 Data Sources
