@@ -18,15 +18,24 @@ Other Tools: Jupyter Notebook (for Python commands and analysis), HTML/CSS (for 
 # Repository Navigation
 Main Branch:
 Presentation: Slide show presentation of the project findings.
+
 Read.me: Overview and guide to the repository.
+
 .gitignore: List of files and directories ignored in Git.
+
 Config.js: Stores API Key (ensure security practices).
+
 Data Files: GeoJSON and CSV datasets for marriage rates, divorce rates, and voter registration.
+
 GeoPandas.ipynb: Python notebook for data processing and conversion to GeoJSON.
+
 static/: Contains HTML, JS, and CSS files for web presentation.
 Index.html: Entry point for project's web visualization.
+
 logic.js: JavaScript for interactive visualizations.
+
 style.css: Stylesheet for web presentation.
+
 Legal and Ethical considerations.docx: Document outlining legal and ethical considerations of the project.
 
 # Conclusion/Findings
