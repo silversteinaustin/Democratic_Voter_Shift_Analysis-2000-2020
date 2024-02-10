@@ -1,56 +1,70 @@
-# project-three
+# Analysis of Voter Registration Trends in Relation to Marriage and Divorce Rates by State in 2020 vs 2000
 
+# Project Overview
+This project explores the potential correlations between voter registration trends and marital status dynamics across different states in the United States. By analyzing marriage rates, divorce rates, and voter registration figures, this study aims to uncover the impact of marital status on civic participation. The project seeks to answer key questions about the relationship between marital status and voter registration patterns, variations across states, and the factors driving these trends.
 
-Project Overview: Analysis of Voter Registration Trends in Relation to Marriage and Divorce Rates by State in 2020 vs 2000
+# Purpose
+The primary objective is to identify if marital status significantly influences voter registration, thereby contributing to a deeper understanding of civic engagement across the United States. This analysis provides insights into how demographic factors like marriage and divorce rates may affect political participation.
 
-The primary objective of this project is to explore potential correlations between voter registration trends and marital status dynamics across different states in the United States. By examining the interplay between marriage rates, divorce rates, and voter registration figures, the study aims to identify if marital status is a significant factor that influences civic participation in the form of voter registration.
+# Tools and Technologies Used
+Languages: Python (for data analysis and visualization), JavaScript (for interactive web visualizations)
+Libraries and Frameworks: GeoPandas (for converting datasets to GeoJSON format), Plotly and Leaflet (for data visualization), Flask (for backend interaction and serving plots)
+Data Management: PostgreSQL (database for storing datasets)
+Other Tools: Jupyter Notebook (for Python commands and analysis), HTML/CSS (for presentation and styling of web pages)
 
-The study is designed to shed light on the following questions:
+# Repository Navigation
+Main Branch:
+Presentation: Slide show presentation of the project findings.
+Read.me: Overview and guide to the repository.
+.gitignore: List of files and directories ignored in Git.
+Config.js: Stores API Key (ensure security practices).
+Data Files: GeoJSON and CSV datasets for marriage rates, divorce rates, and voter registration.
+GeoPandas.ipynb: Python notebook for data processing and conversion to GeoJSON.
+static/: Contains HTML, JS, and CSS files for web presentation.
+Index.html: Entry point for project's web visualization.
+logic.js: JavaScript for interactive visualizations.
+style.css: Stylesheet for web presentation.
+Legal and Ethical considerations.docx: Document outlining legal and ethical considerations of the project.
 
-Is there a discernible trend in voter registration based on marital status?
-Do states with higher marriage rates exhibit different voter registration patterns compared to those with higher divorce rates?
-How do these trends vary across different states, and what might be the underlying factors influencing these variations?
+# Conclusion/Findings
+Marriage and Divorce Trends: Both marriage and divorce rates have shown significant changes since 2000, with a general increase in both metrics.
+Voter Registration: A notable shift towards Democratic party affiliation in most states was observed, suggesting a possible correlation with changes in marital status.
+Ethical Considerations: Careful evaluation ensured no exclusion or bias in data collection and analysis. Legal and ethical standards were maintained throughout the project.
 
-Conclusion
-Marriage rates are higher than they used to be
-Divorce rates are higher than they used to be
-Most states changed party affiliation to Democrat
+# Instructions for Interaction
+The project includes various interactive elements to enhance user engagement:
 
-Legal and Ethical Considerations
-Legal and ethical considerations play an important role in data research, data collection and usability. Our project involved the comparison of married versus divorced voters by state. Our objective was to analyze whether there is a trend in the data between which party each group voted for. The data was collected across the United States of America, carefully evaluated for biases and terms of use. No problems were identified in terms of exclusion of populations or human biases. There were no issues related to the topic that could potentially be problematic in terms of equitable impact. We heavily focused on the data being used and how it was collected with thoughtful discussion among group members to determine our own biases. We looked up diverse datasets avoiding discrimination or stereotypes while ensuring sensitive information was not accidentally displayed. We also made sure there was a disclaimer of some sort in regard to individuals being informed about how their data will be used in visualizations. 
+Visualizations: Accessible through the Index.html file, presenting data through interactive maps and charts.
+Data Exploration: Users can explore datasets via the Flask backend or directly through JavaScript-powered HTML elements.
+Filtering: Options to filter data based on specific criteria, enabling personalized data visualization experiences.
 
-References for the data source(s)
+# Data Sources:
 
+Here's how you can update the Data Sources section of your README to accurately reflect the true sources of your data, making it more precise and relevant for readers:
 
-The resources we are referring to are licensed under the Creative Commons Public Domain Dedication (CC0 1.0 Universal). This license effectively places these works in the public domain, allowing anyone to use, modify, distribute, and perform the work, even for commercial purposes, without asking permission. According to the details provided on the Creative Commons website, CC0 1.0 does not require users to credit the creator, although it is appreciated when possible. This broad license fosters a vibrant and accessible public domain, where creativity and innovation can flourish without the constraints of copyright.
+Data Sources
+This project utilized authoritative and reliable data sources to ensure the accuracy and relevance of the analysis on voter registration trends in relation to marriage and divorce rates across different states in the United States for the years 2000 and 2020. Below are the specific sources of our data:
 
-Link to the creative: https://creativecommons.org/publicdomain/zero/1.0/
+Voter Registration Data:
 
-Instructions on how to use and interact with the project: 
+Federal Election Commission (FEC): Provides comprehensive information on election results and voting, including detailed data for the federal elections of 2020. This data was instrumental in analyzing voter registration trends across states.
+Election Results and Voting Information - Federal Elections 2020: https://www.fec.gov/introduction-campaign-finance/election-results-and-voting-information/federal-elections-2020/
 
-Main Branch: 
-  - Contains our slide show presentation ina  file called, "Presentation"
-  - Contains our Read.me
-  - Contains a .gitignore file
-  - Contains a text file  storing our API Key called "Config.js"
-  - Contains our Percent Change in Marriage Rates data set in geojson format in a file called, "MarriagePercentChange.csv"
-  - Contains our Percent Change in Divorce Rates data set in geojson format in a file called, "DivorcePercentChange.csv"
-  - Contains our Percent Change in Voter Registration Political Party affiliation data set in a file called, "PartiesPercentChange.csv"
-  - Contains our Marriage data set in geojson format in a file called, "Marriage.geojson"
-  - Contains our Divorce data set in geojson format in a file called, "Divorce.geojson"
-  - Contains our Voter Registration Political Party affiliation data set in geojson format in a file called, "Parties.geojson"
-  - Contains our json polygons data in a file called, "us-states.json"
-  - Contains our legal and ethical considerations information in a file called, "Legal and Ethical considerations.docx
-  - Contains our python commands to convert our datasets to geojson datasets in a file called, "GeoPandas.ipynb"
-  - Contains a subfolder called, "static"
-        - Contains our html link to review output of our project ina file called, "Index.html"
-        - Contains a subfolder called "js" containing our javascript in a file called, "logic.js"
-        - Contains a subfolder called "css" containing our cascading style sheet in a file called, "style.css"
-  - Contains a checkpoint folder for changes to our python files generated by Jupyter Notebook called, ".ipynb_checkpoints"
-  - Contains a json exntesion in a subfolder called, ".vscode"
-  - Contains all non-functional working files in a subfolder called, "Project-Three-Junk-Drawer-Obsolete"
-    
+Marriage Rates Data:
 
+Centers for Disease Control and Prevention (CDC): Offers detailed statistics on marriage rates by state, capturing the dynamics of marital status from 1990 to 2020. This longitudinal data provided a basis for examining changes in marriage rates over time.
+State Marriage Rates 90-95-99-20 (PDF): https://www.cdc.gov/nchs/data/dvs/state-marriage-rates-90-95-99-20.pdf
 
+Divorce Rates Data:
 
+Centers for Disease Control and Prevention (CDC): Similarly, provides detailed statistics on divorce rates by state, allowing for a comparative analysis with marriage rates and voter registration trends.
+State Divorce Rates 90-95-99-20 (PDF): https://www.cdc.gov/nchs/data/dvs/state-divorce-rates-90-95-99-20.pdf
 
+These sources were critical in conducting a comprehensive analysis of the interplay between marriage, divorce, and voter registration trends. By leveraging data from the FEC and CDC, this project ensures a high level of reliability and relevance in its findings.
+
+# Ethical Considerations
+Our project emphasizes ethical research practices, ensuring data privacy, avoiding discrimination, and maintaining transparency in data collection and analysis. We engaged in thorough discussions on potential biases and ethical implications to uphold the integrity of our findings.
+
+Our datasets are under the Creative Commons Public Domain Dedication (CC0 1.0), promoting open access and use of the data for both academic and commercial purposes without the need for attribution, though it is appreciated.
+
+Creative Commons Public Domain Dedication (CC0 1.0 Universal)
